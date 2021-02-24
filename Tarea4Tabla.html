@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla en HTML</title>
+</head>
+<body>
+    <style>
+        *{margin:0;padding:0;font-family: Arial, Helvetica, sans-serif;}
+        table{border-spacing: 0px;}
+        h1{font-size:20px;width:50%;text-align:center;padding:5px;}
+        .letra{font-weight:normal;}
+        .auto{margin:auto;}
+        tr,th{text-align: left;padding:5px;}
+    </style>
+    <h1 class="auto letra">A complex table</h1>
+    <table border="" class="auto">
+        <tr>
+        <th colspan="3" bgcolor="#eee">Invoice #123456789</th>
+        <th bgcolor="#eee">14 Janary 2025</th>
+    </tr>
+    <tr>
+        <th colspan="2" rowspan="4">Pay to:
+            <p class="letra">Acme Billing Co.</p>
+            <p class="letra">123 Main St.</p>
+            <p class="letra">Cityville,Na 12345</p>
+        </th>
+        <th colspan="2" rowspan="4">Customer_
+            <p class="letra">John Smith</p>
+            <p class="letra">321 Willow Way</p>
+            <p class="letra">Southeast Northwestershine,Ma 54321</p>
+        </th>
+    </tr>
+    <tr></tr>
+    <tr></tr>
+    <tr></tr>
+    <tr>
+        <th bgcolor="#eee">Name/Description</th>
+        <th bgcolor="#eee">Qty.</th>
+        <th bgcolor="#eee">@</th>
+        <th bgcolor="#eee">Cost</th>
+    </tr>
+    <tr>
+        <th class="letra">Paperclips</th>
+        <th class="letra">1000</th>
+        <th class="letra">0.01</th>
+        <th class="letra">10.00</th>
+    </tr>
+    <tr>
+        <th class="letra">Staples (box)</th>
+        <th class="letra">100</th>
+        <th class="letra">1.00</th>
+        <th class="letra">100.00</th>
+    </tr>
+    <tr>
+        <th colspan="3" bgcolor="#eee">Subtotal</th>
+        <th class="letra">110.00</th>
+    </tr>
+    <tr>
+        <th colspan="2" bgcolor="#eee">Tax</th>
+        <th class="letra">8%</th>
+        <th class="letra">8.80</th>
+    </tr>
+    <tr>
+        <th colspan="3" bgcolor="#eee">Grand Total</th>
+        <th class="letra">$118.80</th>
+    </tr>
+    </table>
+</body>
+</html>
